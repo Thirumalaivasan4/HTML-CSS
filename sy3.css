@@ -1,0 +1,11 @@
+.box{
+    height:400px;
+    width:400px;
+    margin: auto;
+    /* background-color: aqua; */
+    /* background: linear-gradient(blue,yellow);many colors can be given top to bottom */
+    background: linear-gradient(45deg,green,red,yellow,blue,yellow);
+
+    /* background: linear-gradient(to right,green,yellow); */
+
+}

@@ -1,0 +1,23 @@
+ul{ /* none,disc,circle,square,,*/
+    list-style-image: url(Image/star1.png);
+    /* list-style-type: disc; */
+      /* list-style-position:inside or outside; */
+     /* list-style: inside square; */
+}
+ ol{/*decimal 1,2,3...,decimal-leading-zero 01,02...  */
+    list-style-type:lower-roman;
+    
+
+}
+li{
+    margin: 10px;
+}
+table{
+    width: 300x;
+    margin: auto;
+    
+}
+th{
+    text-transform: uppercase;
+    border-bottom: 2px solid blue;  
+}

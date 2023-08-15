@@ -1,0 +1,54 @@
+<html>
+<body>
+<script>
+function validateform()
+{
+var name=document.myform.name.value;
+var password=document.myform.password.value;
+if (name==null || name==""){
+alert("Name can't be blank");
+return false;
+}else if(password.length<6){
+alert("Password must be at least 6 characters long.");
+return false;
+}
+}
+</script>
+<body bgcolor="sky blue">
+ <center><h2>WELECOME TO FORM VALIDATION PROGRAM</h2></center>
+<form name="myform" method="post" action="C:/Users/Thirumalaivasan/Desktop/success.html" onsubmit="return validateform()" border=1 >
+    <center>
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                 <input type="text"  id="name"name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="pass"> Password: </label>
+                </td>
+                <td>
+                  <input type="password" id="pass" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit" onsubmit="return validateform()">
+                     <input type="reset" value="Reset">
+                </td>
+            </tr>
+            
+       
+       
+    </table>
+    </center>
+
+
+</form>
+</body>
+</html>

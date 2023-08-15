@@ -1,0 +1,10 @@
+.col p{
+    width: 30%;
+    /* float:left; */
+    float: right;
+}
+.col p:nth-child(4){
+    /* clear:left; */
+    clear:right;
+}
+/* not mostly used */

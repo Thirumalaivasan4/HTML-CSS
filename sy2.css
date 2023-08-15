@@ -1,0 +1,27 @@
+.para1{
+    background: aqua;
+}
+.para2{
+    background: greenyellow;
+}
+.para3{
+    background: rgb(197, 29, 29);
+}
+/* now we are targeting laptop and desktop  */
+@media (min-width:801px){
+    .container p{
+       width:30%;
+       float: right;
+       padding:10px ;
+
+    }
+    .para3{
+        background:rgb(212, 18, 180);
+    }
+
+}
+@media print{
+    body{
+        background-color: aqua;
+    }
+}
